@@ -22,8 +22,5 @@ int power(int a, int b)
     {
         return 1;
     }
-    else
-    {
-        return a * power(a, b - 1);
-    }
+    return a * power(a, b - 1);
 }
